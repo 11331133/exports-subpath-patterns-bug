@@ -1,0 +1,24 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "target": "es6",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "skipLibCheck": true,
+        "resolveJsonModule": true,
+        "noImplicitOverride": true,
+        "allowJs": true,
+        "baseUrl": "./",
+        "outDir": "./dist",
+        "paths": {
+            "@config": ["config"]
+        }
+    },
+    "lib": ["es2015"],
+    "exclude": [
+        "./dist",
+    ]
+}
